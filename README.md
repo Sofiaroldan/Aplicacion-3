@@ -62,6 +62,13 @@ namespace Aplicación_3
                 while (lineaAr! = pull) {string [] vec = lineaAr.Split (';'); if (vec [0]) == buscar || vec [1] == buscar) {Console.WriteLine ("Contacto encontrado:" + vec [0] + "-" + vec [0];
                 } 
                 lineaAr = ar.ReadLine ();
+                while (lineaAr = null)
+                { string[] vec = LineaAr.Split(";");
+                    if (vec[0] == buscar || vec [1]== buscar)//&&
+                    {
+                        Console.WriteLine("Contacto encontrado: " + vec[0] + "--" + vec[1] + "--");
+                    }
+                    lineaAr = ar.Readline();
 
 
 
